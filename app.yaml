@@ -1,0 +1,10 @@
+runtime: nodejs18
+
+# Optional: Entry point configuration
+entrypoint: node ./bin/www
+
+# Optional: Specify instance class (can optimize costs and resources)
+instance_class: F2
+
+env_variables:
+  NODE_ENV: production
